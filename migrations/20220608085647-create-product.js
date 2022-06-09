@@ -20,10 +20,6 @@ module.exports = {
         type: Sequelize.INTEGER,
         allowNull: false,
       },
-      productImage: {
-        type: Sequelize.INTEGER,
-        allowNull: false,
-      },
       merchant_id: {
         type: Sequelize.INTEGER,
         allowNull: false,

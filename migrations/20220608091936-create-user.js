@@ -24,14 +24,6 @@ module.exports = {
         type: Sequelize.INTEGER,
         allowNull: false,
       },
-      address: {
-        type: Sequelize.INTEGER,
-        allowNull: false,
-      },
-      card: {
-        type: Sequelize.INTEGER,
-        allowNull: false,
-      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE,
